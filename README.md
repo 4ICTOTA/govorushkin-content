@@ -1,8 +1,8 @@
-# Speech Practice — бесплатные материалы
+# Говорушкин — бесплатные материалы
 
-Публичный каталог файлов Android-приложения Speech Practice.
-Исходники приложения и backend находятся в отдельном приватном репозитории;
-информационный сайт — в speech-practice-site.
+Публичный каталог файлов Android-приложения «Говорушкин».
+Исходники приложения и backend находятся в приватном репозитории
+`govorushkin-app`. Информация о проекте доступна на [публичном сайте](https://4ictota.github.io/govorushkin/).
 
 Сейчас опубликован только нейтральный технический набор для проверки
 скачивания и офлайн-хранения. Учебных упражнений, персональных данных,
@@ -20,11 +20,11 @@
 
 ## Проверка и публикация владельцем
 
-Из соседнего приватного проекта speech-practice:
+Из соседнего приватного проекта govorushkin-app:
 
 ```sh
-fvm dart run tool/content.dart build ../speech-practice-content
-fvm dart run tool/content.dart publish ../speech-practice-content
+fvm dart run tool/content.dart build ../govorushkin-content
+fvm dart run tool/content.dart publish ../govorushkin-content
 ```
 
 Одна реализация валидатора используется инструментом и приложением.
@@ -32,6 +32,6 @@ fvm dart run tool/content.dart publish ../speech-practice-content
 загружается полный черновик релиза, затем он становится текущим.
 
 Стабильная точка получения каталога:
-https://github.com/4ICTOTA/speech-practice-content/releases/latest/download/catalog.json
+https://github.com/4ICTOTA/govorushkin-content/releases/latest/download/catalog.json
 
 Методические материалы и условия их использования пока не определены.
