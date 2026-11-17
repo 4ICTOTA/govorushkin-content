@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "directions": [
+    {
+      "id": "sonorants",
+      "title": "Сонорные",
+      "subtitle": "Р · Рь · Л · Ль",
+      "sounds": [
+        {
+          "id": "r",
+          "label": "Р"
+        },
+        {
+          "id": "r-soft",
+          "label": "Рь"
+        },
+        {
+          "id": "l",
+          "label": "Л"
+        },
+        {
+          "id": "l-soft",
+          "label": "Ль"
+        }
+      ]
+    },
+    {
+      "id": "sibilants",
+      "title": "Шипящие",
+      "subtitle": "Ш · Ж · Ч · Щ",
+      "sounds": [
+        {
+          "id": "sh",
+          "label": "Ш"
+        },
+        {
+          "id": "zh",
+          "label": "Ж"
+        },
+        {
+          "id": "ch",
+          "label": "Ч"
+        },
+        {
+          "id": "sch",
+          "label": "Щ"
+        }
+      ]
+    },
+    {
+      "id": "whistling",
+      "title": "Свистящие",
+      "subtitle": "С · Сь · З · Зь · Ц",
+      "sounds": [
+        {
+          "id": "s",
+          "label": "С"
+        },
+        {
+          "id": "s-soft",
+          "label": "Сь"
+        },
+        {
+          "id": "z",
+          "label": "З"
+        },
+        {
+          "id": "z-soft",
+          "label": "Зь"
+        },
+        {
+          "id": "ts",
+          "label": "Ц"
+        }
+      ]
+    },
+    {
+      "id": "articulation",
+      "title": "Артикуляционные упражнения",
+      "subtitle": "Движения языка и губ",
+      "sounds": []
+    }
+  ],
+  "packages": [
+    {
+      "id": "technical-preview",
+      "version": "1.0.0",
+      "title": "Проверка офлайн-загрузки",
+      "description": "Небольшой технический набор для проверки скачивания и хранения. Учебных упражнений в нём нет.",
+      "source": "packages/technical-preview"
+    }
+  ]
+}
