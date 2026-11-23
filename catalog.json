@@ -1,27 +1,31 @@
 {
   "schemaVersion": 1,
-  "revision": 1,
+  "revision": 2,
   "directions": [
     {
-      "id": "sonorants",
-      "title": "Сонорные",
-      "subtitle": "Р · Рь · Л · Ль",
+      "id": "whistling",
+      "title": "Свистящие",
+      "subtitle": "С · Сь · З · Зь · Ц",
       "sounds": [
         {
-          "id": "r",
-          "label": "Р"
+          "id": "s",
+          "label": "С"
         },
         {
-          "id": "r-soft",
-          "label": "Рь"
+          "id": "s-soft",
+          "label": "Сь"
         },
         {
-          "id": "l",
-          "label": "Л"
+          "id": "z",
+          "label": "З"
         },
         {
-          "id": "l-soft",
-          "label": "Ль"
+          "id": "z-soft",
+          "label": "Зь"
+        },
+        {
+          "id": "ts",
+          "label": "Ц"
         }
       ]
     },
@@ -49,29 +53,25 @@
       ]
     },
     {
-      "id": "whistling",
-      "title": "Свистящие",
-      "subtitle": "С · Сь · З · Зь · Ц",
+      "id": "sonorants",
+      "title": "Сонорные",
+      "subtitle": "Р · Рь · Л · Ль",
       "sounds": [
         {
-          "id": "s",
-          "label": "С"
+          "id": "r",
+          "label": "Р"
         },
         {
-          "id": "s-soft",
-          "label": "Сь"
+          "id": "r-soft",
+          "label": "Рь"
         },
         {
-          "id": "z",
-          "label": "З"
+          "id": "l",
+          "label": "Л"
         },
         {
-          "id": "z-soft",
-          "label": "Зь"
-        },
-        {
-          "id": "ts",
-          "label": "Ц"
+          "id": "l-soft",
+          "label": "Ль"
         }
       ]
     },
